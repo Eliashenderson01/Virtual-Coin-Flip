@@ -1,0 +1,7 @@
+import random
+
+random_coin = random.randint(0, 1)
+if random_coin == 1:
+  print("The coin is Heads")
+if random_coin == 0:
+  print("The coin is tails")
